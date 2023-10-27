@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html ve CSS ile form sitesi</title>
+    <style type="text/css">
+        form{
+            background-color: rgb(191, 194, 193);
+            padding:20px;
+            border-radius: 8px;
+        }
+        #isim, #soyisim, #takim{
+            width: 100%;
+            padding: 8px 15px;
+            margin: 10px 0;
+            border:1px solid #ccc;
+            border-radius: 2px;
+            box-sizing: border-box;
+
+        }
+        #baslik{
+            text-align: center;
+            background-color: #b4b4b4;
+            border: 2px solid #ccc;
+            border-radius: 8px;
+        }
+        #submit{
+            width: 100%;
+            background-color: #4CAD50;
+            color: white;
+            padding: 12px;
+            margin: 8px 0;
+            border: none;
+            cursor: pointer;
+        }
+        #submit:hover{
+            background-color: green;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <div id="baslik"><h1>Futbolcu Basvuru Formu</h1></div>
+        <label for="isim">isim</label>
+        <input type="text" id="isim" placeholder="isminizi giriniz..">
+        
+        
+        <label for="soyisim">soyisim</label>
+        <input type="text" id="soyisim" placeholder="soyisminizi giriniz..">
+
+        <label for="takim">takim adi</label>
+            <select id="takim">
+                <option>Galarasaray</option>
+                <option>Beşiktaş(önerilmez)</option>
+                <option>Fenerbahçe</option>
+                <option>Adana Demirspor</option>
+            </select>
+        
+        <p>Mevki</p>
+        <input type="radio" id="defans" name="pozisyon">
+        <label for="defans">Defans Hatti</label>
+        
+        <input type="radio" id="ortasaha" name="pozisyon">
+        <label for="ortasaha">Orta Saha</label>
+
+        <input type="radio" id="hucum" name="pozisyon">
+        <label for="hucum">Hucum hatti</label>
+        <input type="submit" id="submit" value="basvur">
+
+    </form>
+</body>
+</html>
