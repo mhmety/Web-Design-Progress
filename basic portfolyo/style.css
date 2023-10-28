@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    background-color: #d1dadd;
+}
+h1{
+    text-align: center;
+}
+h1, h3, p, a{
+    font-family: 'Playpen Sans', cursive;
+}
+nav{
+    text-align: right;
+    background-color: #383a3b;
+}
+.menu{
+    padding: 20px;
+    font-size: 14px;
+}
+.menu a{
+    color: grey;
+    text-decoration: none;
+
+}
+.menu .links{
+    margin-right: 30px;
+    margin-left: 30px;
+}
+.menu .links:hover{
+    color: white;
+    transition-property: color;
+    transition-duration: 0.4s;
+}
+.menu #koseyazisi{
+    font-style: italic;
+    float: left;
+}
+.container{
+    margin: 20px auto 0 auto;
+    width: 80%;
+    -webkit-box-shadow: 5px 5px 24px 8px rgba(134, 134, 139, 1);
+    -moz-box-shadow: 5px 5px 24px 8px rgba(134, 134, 139, 1);
+    box-shadow: 5px 5px 24px 8px rgba(134, 134, 139, 1);
+    border-radius: 5px;
+    padding-right:20px;
+    padding-left: 20px;
+    padding-bottom: 5px;
+}
+#hakkimda h1{
+    margin:10px ;
+}
+.icon{
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+}
