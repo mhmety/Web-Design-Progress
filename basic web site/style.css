@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(211, 206, 206);
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(105, 105, 105);
+    border-radius: 5px;
+    overflow: hidden;
+}
+li{
+    float: left;
+    font-size: 15px;
+    padding: 20px;
+}
+li a{
+    color: white;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: rgb(46, 46, 46);
+}
+.content{
+    background-color: rgb(170, 170, 170);
+    margin: 0 auto;
+    text-align: center;
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 5px;
+    padding: 5px;
+}
+#photos{
+    width: 100px;
+    height: 100px;
+    float: left;
+    margin: 20px;
+    margin-top:40px ;
+    border: 3px solid grey;
+    padding: 5px;
+}
+img{
+    width: 100px;
+    height: 100px;
+}
+form{
+    background-color: rgb(191, 194, 193);
+    padding:20px 30% 20px 30%;
+    border-radius: 8px;
+}
+form input{
+    border-radius: 7px;
+    
+}
+textarea{
+    border-radius: 7px;
+}
+#isim, #soyisim, #ogrenim, #mail, #textarea{
+    width: 100%;
+    padding: 8px 15px;
+    margin: 10px 0;
+    text-align: center;
+}
+#baslik{
+    text-align: center;
+    background-color: #b4b4b4;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+#submit{
+    width: 100%;
+    background-color: #335535;
+    color: white;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+}
+#submit:hover{
+    background-color: rgb(73, 170, 73);
+}
